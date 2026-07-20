@@ -1,0 +1,527 @@
+.details {
+  width: 100%;
+  font-family: 'Inter', sans-serif;
+  color: #101828;
+}
+
+.container {
+  width: 1312px;
+  margin: 0 auto;
+  padding-top: 64px;
+  padding-bottom: 88px;
+}
+
+/* =========================
+   TOP SECTION
+========================= */
+
+.topSection {
+  display: flex;
+  gap: 24px;
+  width: 100%;
+}
+
+/* =========================
+   IMAGES
+========================= */
+
+.imageAndThumbnails {
+  display: flex;
+  flex-direction: column;
+  width: 638px;
+  gap: 24px;
+  flex-shrink: 0;
+}
+
+.mainImageWrapper {
+  width: 638px;
+  height: 505px;
+  border-radius: 16.61px;
+  overflow: hidden;
+}
+
+.mainImage {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* =========================
+   THUMBNAILS
+========================= */
+
+.thumbnails {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 24px;
+  width: 638px;
+}
+
+.thumbnailButton {
+  flex: 0 0 136px;
+  width: 136px;
+  height: 144px;
+  padding: 0;
+  border: none;
+  border-radius: 16px;
+  overflow: hidden;
+  background: transparent;
+  cursor: pointer;
+}
+
+.activeThumbnail {
+  border: 3px solid #829b91;
+}
+
+.thumbnail {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* =========================
+   INFO CONTAINER
+========================= */
+
+.infoContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 650px;
+}
+
+/* =========================
+   HEADER AND RATING
+========================= */
+
+.headerRating {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 650px;
+  height: auto;
+  padding: 24px;
+  box-sizing: border-box;
+  border-radius: 16px;
+  background-color: #f7f7f7;
+}
+
+.title {
+  margin: 0;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #101828;
+}
+
+.reviewsLocation {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.starIcon {
+  width: 16px;
+  height: 16px;
+  fill: #ffc531;
+}
+
+.rating span {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #101828;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.mapIcon {
+  width: 16px;
+  height: 16px;
+  fill: #101828;
+}
+
+.location span {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #101828;
+}
+
+.price {
+  margin: 0;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #101828;
+}
+
+.description {
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #475467;
+}
+
+/* =========================
+   VEHICLE DETAILS
+========================= */
+
+.vehicleDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 650px;
+  min-height: 360px;
+  padding: 24px;
+  box-sizing: border-box;
+  border-radius: 16px;
+  background-color: #f7f7f7;
+}
+
+.vehicleTitle {
+  margin: 0;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #101828;
+}
+
+/* =========================
+   EQUIPMENT BUTTONS
+========================= */
+
+.equipment {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  width: 100%;
+}
+
+.equipmentItem {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 48px;
+  padding: 12px 18px;
+  box-sizing: border-box;
+  border-radius: 100px;
+  background-color: #f2f4f7;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #101828;
+}
+
+.equipmentItem svg {
+  display: block;
+  width: 20px;
+  height: 20px;
+  fill: #101828;
+  flex-shrink: 0;
+}
+
+/* =========================
+   DIVIDER
+========================= */
+
+.divider {
+  width: 100%;
+  height: 1px;
+  background-color: #dadde1;
+}
+
+/* =========================
+   VEHICLE INFO
+========================= */
+
+.vehicleInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+}
+
+.infoRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 24px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.infoRow span:first-child {
+  font-weight: 400;
+  color: #101828;
+}
+
+.infoRow span:last-child {
+  font-weight: 500;
+  color: #101828;
+}
+
+/* =========================
+   REVIEWS SECTION
+========================= */
+
+.reviewsSection {
+  width: 100%;
+  margin-top: 88px;
+}
+
+.reviewsTitle {
+  margin: 0 0 24px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #101828;
+}
+
+.reviewsAndBooking {
+  display: flex;
+  gap: 24px;
+  width: 100%;
+  align-items: flex-start;
+}
+
+.reviews {
+  width: 638px;
+  height: auto;
+}
+
+/* =========================
+   REVIEW
+========================= */
+
+.review {
+  width: 100%;
+  margin-bottom: 44px;
+  padding: 24px;
+  box-sizing: border-box;
+  border-radius: 16px;
+  background-color: #f7f7f7;
+}
+
+.review:last-child {
+  margin-bottom: 0;
+}
+
+.reviewHeader {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.reviewAvatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #829b91;
+}
+
+.reviewHeader h3 {
+  margin: 0 0 4px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #101828;
+}
+
+.reviewStars {
+  display: flex;
+  gap: 4px;
+}
+
+.reviewStar {
+  width: 16px;
+  height: 16px;
+  fill: #ffc531;
+}
+
+.review p {
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #475467;
+}
+
+/* =========================
+   BOOKING
+========================= */
+
+.booking {
+  display: flex;
+  flex-direction: column;
+  width: 641px;
+  padding: 44px;
+  gap: 24px;
+  box-sizing: border-box;
+  border: 1px solid #dadde1;
+  border-radius: 16px;
+  height: auto;
+  align-self: flex-start;
+}
+
+.bookingHeader {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+}
+
+.bookingHeader h2 {
+  margin: 0;
+  font-family: Inter, sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #101828;
+}
+
+.bookingHeader p {
+  margin: 0;
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #6c717b;
+}
+
+.bookingForm {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  width: 100%;
+}
+
+.inputWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  width: 100%;
+}
+
+/* ===== ПОЛЕ ВВОДА ===== */
+.inputContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 56px;
+  border-radius: 12px;
+  background-color: #f7f7f7;
+  padding: 0 18px;
+  box-sizing: border-box;
+  border: 1px solid transparent;
+  transition: border-color 0.2s, background-color 0.2s;
+}
+
+/* ===== ОШИБКА ===== */
+.inputContainer.error {
+  border-color: #E44848;
+  background-color: #FFDFDF;
+}
+
+/* ===== ЛЕЙБЛ НА РАМКЕ ===== */
+.errorLabel {
+  position: absolute;
+  top: -10px;
+  left: 12px;
+  font-family: Manrope, sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #EC383B;
+  background-color: #FFDFDF;
+  padding: 0 8px;
+  border-radius: 4px;
+  letter-spacing: 0;
+  z-index: 2;
+  border: none;
+}
+
+/* ===== ИНПУТ ===== */
+.bookingInput {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #101828;
+  padding: 0;
+}
+
+.bookingInput::placeholder {
+  color: #6c717b;
+}
+
+.errorIcon {
+  flex-shrink: 0;
+  margin-left: 8px;
+}
+
+.errorText {
+  margin: 0;
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #E44848;
+}
+
+.sendButton {
+  width: 100%;
+  height: 56px;
+  border-radius: 200px;
+  border: none;
+  background-color: #829b91;
+  color: #ffffff;
+  font-family: Inter, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.5px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.sendButton:hover {
+  background-color: #6D7B75;
+}
+
+.sendButton:active {
+  background-color: #6D7B75;
+}

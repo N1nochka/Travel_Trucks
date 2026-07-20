@@ -1,0 +1,117 @@
+.backdrop {
+    position: fixed;
+    inset: 0;
+
+    z-index: 9999;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: rgba(223, 223, 223, 0.44);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 543px;
+  min-height: 296px;
+
+  padding: 48px 96px;
+
+  gap: 32px;
+
+  border-radius: 16px;
+
+  background: #ffffff;
+
+  box-sizing: border-box;
+
+  text-align: center;
+}
+
+.spinner {
+  position: relative;
+
+  width: 72px;
+  height: 72px;
+}
+
+.ellipse {
+  position: absolute;
+
+  width: 72px;
+  height: 72px;
+
+  border-radius: 50%;
+
+  background-color: #f7f7f7;
+}
+
+.ellipseActive {
+  position: absolute;
+
+  width: 72px;
+  height: 72px;
+
+  border-radius: 50%;
+
+  border: 6px solid transparent;
+  border-top-color: #6d7b75;
+
+  animation: spin 2s linear infinite;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+
+  width: 351px;
+  min-height: 96px;
+
+  gap: 16px;
+
+  text-align: center;
+}
+
+.title {
+  margin: 0;
+
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+
+  color: #101828;
+}
+
+.description {
+  margin: 0;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #101828;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

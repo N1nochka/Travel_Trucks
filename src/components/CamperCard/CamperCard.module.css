@@ -1,0 +1,191 @@
+/* ==========================
+   Контейнер картки кемпера
+========================== */
+.card {
+  display: flex;
+  flex-direction: row;
+  width: 888px;
+  min-height: 312px;
+  background-color: #F7F7F7;
+  border-radius: 16px;
+  padding: 24px;
+  gap: 24px;
+  box-sizing: border-box;
+}
+
+/* ==========================
+   Зображення кемпера
+========================== */
+.imageWrapper {
+  flex-shrink: 0;
+  width: 219px;
+  height: 240px;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ==========================
+   Інформаційний блок
+========================== */
+.info {
+  display: flex;
+  flex-direction: column;
+  width: 524px;
+  flex-shrink: 0;
+  min-width: 0;
+}
+
+/* ==========================
+   Назва та вартість
+========================== */
+.topRow {
+  display: flex;
+  align-items: center;
+  gap: 8px;               
+  margin-bottom: 8px; 
+}
+
+.name {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #101828;
+  margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  flex: 1;
+}
+
+.price {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #101828;
+  margin: 0;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+
+/* ==========================
+   Рейтинг та місцезнаходження
+========================== */
+.ratingLocationRow {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 24px;  
+}
+
+.ratingContainer,
+.locationContainer {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.starIcon {
+  width: 16px;
+  height: 16px;
+  fill: #FFC531;
+}
+
+.locationIcon {
+  width: 16px;
+  height: 16px;
+  fill: #667085;
+}
+
+.ratingText,
+.locationText {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #101828;
+}
+
+
+/* ==========================
+   Рейтинг та місцезнаходження
+========================== */
+.descriptionLine {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #475467;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 0 0 24px 0;  
+}
+
+
+/* ==========================
+   Рейтинг та місцезнаходження
+========================== */
+.equipment {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  list-style: none;
+  padding: 0;
+  margin: 0 0 24px 0;  
+}
+
+.equipmentItem {
+  display: flex;
+  align-items: center;
+  gap: 8px;                     
+  padding: 12px 18px;          
+  background-color: #F2F4F7; 
+  border-radius: 100px;     
+  font-weight: 500;        
+  font-size: 16px;
+  line-height: 24px;
+  color: #101828;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  fill: #101828;
+}
+
+
+/* ==========================
+   Рейтинг та місцезнаходження
+========================== */
+.showMoreButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 173px;            
+  height: 56px;
+  padding: 16px 30px;        
+  background-color: #829B91;
+  color: #FFFFFF;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.5%;
+  border: none;
+  border-radius: 200px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  flex-shrink: 0;
+  white-space: nowrap;      
+  overflow: hidden;     
+  text-overflow: ellipsis;  
+}
+
+.showMoreButton:hover {
+  background-color: #6D7B75;
+}
